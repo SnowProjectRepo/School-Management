@@ -19,6 +19,12 @@
                 <element inactive_on_update="false" label="5" sequence="4" value="5"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Disabilities" max_length="40" name="disabilities" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">
             <choice>
                 <element inactive_on_update="false" label="Male" sequence="0" value="Male"/>
