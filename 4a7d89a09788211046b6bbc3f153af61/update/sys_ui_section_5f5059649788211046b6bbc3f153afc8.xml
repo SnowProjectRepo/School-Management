@@ -4,41 +4,55 @@
             <element>student_id</element>
             <position>0</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2022-12-25 07:17:28</sys_created_on>
-            <sys_id>0a4151a49788211046b6bbc3f153af4a</sys_id>
+            <sys_created_on>2022-12-25 07:38:50</sys_created_on>
+            <sys_id>872699e89788211046b6bbc3f153af9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2022-12-25 07:17:28</sys_updated_on>
+            <sys_updated_on>2022-12-25 07:38:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_of_admission</element>
+            <position>1</position>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 07:38:50</sys_created_on>
+            <sys_id>0b2699e89788211046b6bbc3f153af9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 07:38:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2022-12-25 07:17:28</sys_created_on>
-            <sys_id>8a4151a49788211046b6bbc3f153af4a</sys_id>
+            <sys_created_on>2022-12-25 07:38:50</sys_created_on>
+            <sys_id>8b2699e89788211046b6bbc3f153af9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2022-12-25 07:17:28</sys_updated_on>
+            <sys_updated_on>2022-12-25 07:38:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>student_name</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2022-12-25 07:17:28</sys_created_on>
-            <sys_id>0e4151a49788211046b6bbc3f153af4a</sys_id>
+            <sys_created_on>2022-12-25 07:38:50</sys_created_on>
+            <sys_id>0f2699e89788211046b6bbc3f153af9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2022-12-25 07:17:28</sys_updated_on>
+            <sys_updated_on>2022-12-25 07:38:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
