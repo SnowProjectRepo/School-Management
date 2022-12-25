@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="class" table="x_324623_school_ma_student" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>class</element>
+            <name>x_324623_school_ma_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_id>de7d1d6097c8211046b6bbc3f153af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>class</sys_name>
+            <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+            <sys_update_name>sys_choice_x_324623_school_ma_student_class</sys_update_name>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_324623_school_ma_student</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>567d1d6097c8211046b6bbc3f153af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_324623_school_ma_student</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d67d1d6097c8211046b6bbc3f153af36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_324623_school_ma_student</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a7d1d6097c8211046b6bbc3f153af37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4</label>
+            <language>en</language>
+            <name>x_324623_school_ma_student</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e7d1d6097c8211046b6bbc3f153af38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_324623_school_ma_student</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2022-12-25 08:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>127d1d6097c8211046b6bbc3f153af3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2022-12-25 08:10:44</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

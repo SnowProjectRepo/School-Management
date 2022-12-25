@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Student" max_length="40" name="x_324623_school_ma_student" type="collection">
         <element attributes="edge_encryption_enabled=true,max_length = 100" label="Address" max_length="255" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Class" max_length="40" name="class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Student ID" max_length="40" name="student_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="60" name="student_name" type="string"/>
