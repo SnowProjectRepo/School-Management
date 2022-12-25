@@ -18,7 +18,11 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="section" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="A"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="B"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="C"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Student ID" max_length="40" name="student_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="60" name="student_name" type="string"/>
@@ -30,7 +34,11 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="u_section" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Year of Admission" max_length="40" name="year_of_admission" type="glide_date"/>
     </element>
