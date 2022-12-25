@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Student" max_length="40" name="x_324623_school_ma_student" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Additional Subject" max_length="40" name="additional_subject" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Drawing" sequence="0" value="Drawing"/>
+                <element inactive_on_update="false" label="Swiming" sequence="1" value="Swiming"/>
+                <element inactive_on_update="false" label="Playing" sequence="2" value="Playing"/>
+                <element inactive_on_update="false" label="Singing" sequence="3" value="Singing"/>
+                <element inactive_on_update="false" label="Recitation" sequence="4" value="Recitation"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true,max_length = 100" label="Address" max_length="255" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Class" max_length="40" name="class" type="string">
             <choice>
