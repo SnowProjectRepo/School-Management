@@ -36,6 +36,12 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Student ID" max_length="40" name="student_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="60" name="student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transport" max_length="40" name="transport" type="string">
+            <choice>
+                <element inactive_on_update="false" label="School Provided" sequence="0" value="School Provided"/>
+                <element inactive_on_update="false" label="Private" sequence="1" value="Private"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
