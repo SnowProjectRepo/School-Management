@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Student" max_length="40" name="x_324623_school_ma_student" type="collection">
+    <element label="Student" max_length="40" name="x_324623_school_ma_student" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,max_length = 100" label="Address" max_length="255" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Student ID" max_length="40" name="student_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="60" name="student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Year of Admission" max_length="40" name="year_of_admission" type="glide_date"/>
     </element>
 </database>
