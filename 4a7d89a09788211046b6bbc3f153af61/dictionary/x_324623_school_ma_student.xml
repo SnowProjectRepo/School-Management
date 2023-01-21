@@ -48,6 +48,8 @@
                 <element inactive_on_update="false" label="C" sequence="2" value="C"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Student Age" max_length="40" name="student_age" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student D.O.B" max_length="40" name="student_d_o_b" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Student ID" max_length="40" name="student_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="60" name="student_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Transport" max_length="40" name="transport" type="string">

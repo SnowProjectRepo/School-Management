@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa66af80003a02110663d5e5a0c83ce33</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4a7d89a09788211046b6bbc3f153af61</scope_name>
+        <serialized_content>{"FlowDesigner:FDa66af80003a02110663d5e5a0c83ce33":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDa66af80003a02110663d5e5a0c83ce33.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"f146246f-ec96-4e53-917d-c2d4d2b7a25b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa66af80003a02110663d5e5a0c83ce33\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a6af80097a0211046b6bbc3f153af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa66af80003a02110663d5e5a0c83ce33</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name>sys_complex_object_6a6af80097a0211046b6bbc3f153af33</sys_update_name>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

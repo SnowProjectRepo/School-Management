@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch10-hotfix1-08-08-2022_08-16-2022_2011.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>school_management_action</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>2a6af80097a0211046b6bbc3f153af1c</master_snapshot>
+        <name>School management action</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f72a18089720211046b6bbc3f153afed</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>School management action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f72a18089720211046b6bbc3f153afed</sys_update_name>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f72a18089720211046b6bbc3f153afed"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f72a18089720211046b6bbc3f153afed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f72a18089720211046b6bbc3f153afed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:10</sys_created_on>
+        <sys_id>2a283c8c9760211046b6bbc3f153af64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:52</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDe2283c8c696021101f8afcdd9b14843f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDe2283c8c696021101f8afcdd9b14843f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"f146246f-ec96-4e53-917d-c2d4d2b7a25b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe2283c8c696021101f8afcdd9b14843f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">ae283c8c9760211046b6bbc3f153af4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f72a18089720211046b6bbc3f153afed</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:10</sys_created_on>
+        <sys_id>66283c8c9760211046b6bbc3f153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e6283c8c9760211046b6bbc3f153af59</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed^id=f72a18089720211046b6bbc3f153afed"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=f72a18089720211046b6bbc3f153afed^sys_idNOT IN209c58889720211046b6bbc3f153af4d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="School management action">f72a18089720211046b6bbc3f153afed</action>
+        <cid>4225321f-3e10-45ec-9df1-a4252f77c7cb</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>209c58889720211046b6bbc3f153af4d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=209c58889720211046b6bbc3f153af4d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:52</sys_created_on>
+        <sys_id>346ab80097a0211046b6bbc3f153af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:52</sys_updated_on>
+        <value>https://dev130625.service-now.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>389c58889720211046b6bbc3f153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 10:41:36</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>6a283c8c9760211046b6bbc3f153af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>a6283c8c9760211046b6bbc3f153af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>ae283c8c9760211046b6bbc3f153af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>bc9c58889720211046b6bbc3f153af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 10:41:36</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>bc9c58889720211046b6bbc3f153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 10:41:36</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>209c58889720211046b6bbc3f153af4d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>f89c58889720211046b6bbc3f153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 10:41:36</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=209c58889720211046b6bbc3f153af4d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=209c58889720211046b6bbc3f153af4d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=209c58889720211046b6bbc3f153af4d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=209c58889720211046b6bbc3f153af4d^sys_idNOT INa6283c8c9760211046b6bbc3f153af37"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>209c58889720211046b6bbc3f153af4d</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false}}</script>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>a6283c8c9760211046b6bbc3f153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_209c58889720211046b6bbc3f153af4d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f72a18089720211046b6bbc3f153afed"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f72a18089720211046b6bbc3f153afed^sys_idNOT INae283c8c9760211046b6bbc3f153af4f,e6283c8c9760211046b6bbc3f153af59"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDe2283c8c696021101f8afcdd9b14843f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=f146246f-ec96-4e53-917d-c2d4d2b7a25b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="School management action">f72a18089720211046b6bbc3f153afed</model>
+        <model_id>f72a18089720211046b6bbc3f153afed</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>ae283c8c9760211046b6bbc3f153af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ae283c8c9760211046b6bbc3f153af4f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae283c8c9760211046b6bbc3f153af4f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=edbe4d5e-774c-49bb-9398-94b7407c4297,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="School management action">f72a18089720211046b6bbc3f153afed</model>
+        <model_id>f72a18089720211046b6bbc3f153afed</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>e6283c8c9760211046b6bbc3f153af59</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e6283c8c9760211046b6bbc3f153af59"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e6283c8c9760211046b6bbc3f153af59"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f72a18089720211046b6bbc3f153afed"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f72a18089720211046b6bbc3f153afed^sys_idNOT IN349c58889720211046b6bbc3f153af76"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="School management action">f72a18089720211046b6bbc3f153afed</action_type_id>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 10:41:36</sys_created_on>
+        <sys_id>349c58889720211046b6bbc3f153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 10:41:36</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=349c58889720211046b6bbc3f153af76"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f72a18089720211046b6bbc3f153afed"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f72a18089720211046b6bbc3f153afed"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed^sys_idNOT INae283c8c9760211046b6bbc3f153af60,ea283c8c9760211046b6bbc3f153af57"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:10</sys_created_on>
+        <sys_id>ae283c8c9760211046b6bbc3f153af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:42:09</sys_created_on>
+        <sys_id>ea283c8c9760211046b6bbc3f153af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f72a18089720211046b6bbc3f153afed"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=f72a18089720211046b6bbc3f153afed^sys_idNOT IN0f6af80097a0211046b6bbc3f153afe9"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="School management action">f72a18089720211046b6bbc3f153afed</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0f6af80097a0211046b6bbc3f153afe9","name":"plan","plan_signature":null}}</plan>
+        <snapshot>266af80097a0211046b6bbc3f153af48</snapshot>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:52:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f6af80097a0211046b6bbc3f153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:52:01</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>school_management_action</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>School management action</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="School management action">f72a18089720211046b6bbc3f153afed</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a6af80097a0211046b6bbc3f153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af1c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>626af80097a0211046b6bbc3f153af46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDa66af80003a02110663d5e5a0c83ce33":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDa66af80003a02110663d5e5a0c83ce33.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"f146246f-ec96-4e53-917d-c2d4d2b7a25b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa66af80003a02110663d5e5a0c83ce33\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">aa6af80097a0211046b6bbc3f153af35</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af1c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>ae6af80097a0211046b6bbc3f153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">ea6af80097a0211046b6bbc3f153af3b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c^id=2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=2a6af80097a0211046b6bbc3f153af1c^sys_idNOT IN2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="School management action">2a6af80097a0211046b6bbc3f153af1c</action>
+        <cid>4225321f-3e10-45ec-9df1-a4252f77c7cb</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>2a6af80097a0211046b6bbc3f153af20</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>226af80097a0211046b6bbc3f153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>266af80097a0211046b6bbc3f153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>626af80097a0211046b6bbc3f153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>6e6af80097a0211046b6bbc3f153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>aa6af80097a0211046b6bbc3f153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>ae6af80097a0211046b6bbc3f153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>e66af80097a0211046b6bbc3f153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>https://dev130625.service-now.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2a6af80097a0211046b6bbc3f153af20</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>ea6af80097a0211046b6bbc3f153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a6af80097a0211046b6bbc3f153af20^sys_idNOT IN666af80097a0211046b6bbc3f153af2b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>2a6af80097a0211046b6bbc3f153af20</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false}}</script>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>666af80097a0211046b6bbc3f153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2a6af80097a0211046b6bbc3f153af20"/>
+    <sys_hub_action_input action="delete_multiple" query="model=2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2a6af80097a0211046b6bbc3f153af1c^sys_idNOT INaa6af80097a0211046b6bbc3f153af35,ea6af80097a0211046b6bbc3f153af3b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDa66af80003a02110663d5e5a0c83ce33,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=f146246f-ec96-4e53-917d-c2d4d2b7a25b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="School management action">2a6af80097a0211046b6bbc3f153af1c</model>
+        <model_id>2a6af80097a0211046b6bbc3f153af1c</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>aa6af80097a0211046b6bbc3f153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa6af80097a0211046b6bbc3f153af35"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa6af80097a0211046b6bbc3f153af35"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=edbe4d5e-774c-49bb-9398-94b7407c4297,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="School management action">2a6af80097a0211046b6bbc3f153af1c</model>
+        <model_id>2a6af80097a0211046b6bbc3f153af1c</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>ea6af80097a0211046b6bbc3f153af3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea6af80097a0211046b6bbc3f153af3b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea6af80097a0211046b6bbc3f153af3b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2a6af80097a0211046b6bbc3f153af1c^sys_idNOT IN2e6af80097a0211046b6bbc3f153af47"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="School management action">2a6af80097a0211046b6bbc3f153af1c</action_type_id>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>2e6af80097a0211046b6bbc3f153af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2e6af80097a0211046b6bbc3f153af47"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c^sys_idNOT IN666af80097a0211046b6bbc3f153af3a,aa6af80097a0211046b6bbc3f153af42"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>666af80097a0211046b6bbc3f153af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+        <sys_created_on>2023-01-17 12:51:59</sys_created_on>
+        <sys_id>aa6af80097a0211046b6bbc3f153af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+        <sys_updated_on>2023-01-17 12:51:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2a6af80097a0211046b6bbc3f153af1c"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>f72a18089720211046b6bbc3f153afed</sys_id>
+        <latest_snapshot>2a6af80097a0211046b6bbc3f153af1c</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
