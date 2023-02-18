@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Admission Details" section_id="158b12da9701211046b6bbc3f153af3f" sys_domain="global" table="x_324623_school_ma_student" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_of_admission</element>
+            <position>0</position>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2023-02-18 16:13:59</sys_created_on>
+            <sys_id>e98b12da9701211046b6bbc3f153afc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Admission Details" display_value="Admission Details" name="x_324623_school_ma_student" sys_domain="global" view="Default view">158b12da9701211046b6bbc3f153af3f</sys_ui_section>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2023-02-18 16:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2023-02-18 16:13:59</sys_created_on>
+            <sys_id>6d8b12da9701211046b6bbc3f153afc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Admission Details" display_value="Admission Details" name="x_324623_school_ma_student" sys_domain="global" view="Default view">158b12da9701211046b6bbc3f153af3f</sys_ui_section>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2023-02-18 16:13:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Admission Details</caption>
+            <header>false</header>
+            <name>x_324623_school_ma_student</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
+            <sys_created_on>2023-02-18 16:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>158b12da9701211046b6bbc3f153af3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_324623_school_ma_student</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
+            <sys_update_name>sys_ui_section_158b12da9701211046b6bbc3f153af3f</sys_update_name>
+            <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
+            <sys_updated_on>2023-02-18 16:13:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

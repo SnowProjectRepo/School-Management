@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="5f5059649788211046b6bbc3f153afc8" sys_domain="global" table="x_324623_school_ma_student" version="3" view="">
+    <sys_ui_section caption="Student Details" section_id="564b5e9a9701211046b6bbc3f153af72" sys_domain="global" table="x_324623_school_ma_student" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>student_id</element>
+            <element>address</element>
             <position>0</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2023-02-18 16:13:58</sys_created_on>
-            <sys_id>558b12da9701211046b6bbc3f153afb8</sys_id>
+            <sys_created_on>2023-02-18 16:15:37</sys_created_on>
+            <sys_id>e9eb56da9701211046b6bbc3f153af40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
+            <sys_ui_section caption="Student Details" display_value="Student Details" name="x_324623_school_ma_student" sys_domain="global" view="Default view">564b5e9a9701211046b6bbc3f153af72</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2023-02-18 16:13:58</sys_updated_on>
+            <sys_updated_on>2023-02-18 16:15:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,52 +18,52 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2023-02-18 16:13:58</sys_created_on>
-            <sys_id>d58b12da9701211046b6bbc3f153afb8</sys_id>
+            <sys_created_on>2023-02-18 16:15:37</sys_created_on>
+            <sys_id>6deb56da9701211046b6bbc3f153af40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
+            <sys_ui_section caption="Student Details" display_value="Student Details" name="x_324623_school_ma_student" sys_domain="global" view="Default view">564b5e9a9701211046b6bbc3f153af72</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2023-02-18 16:13:58</sys_updated_on>
+            <sys_updated_on>2023-02-18 16:15:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>student_name</element>
+            <element>u_description</element>
             <position>2</position>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2023-02-18 16:13:58</sys_created_on>
-            <sys_id>598b12da9701211046b6bbc3f153afb8</sys_id>
+            <sys_created_on>2023-02-18 16:15:37</sys_created_on>
+            <sys_id>edeb56da9701211046b6bbc3f153af40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_324623_school_ma_student" sys_domain="global" view="Default view">5f5059649788211046b6bbc3f153afc8</sys_ui_section>
+            <sys_ui_section caption="Student Details" display_value="Student Details" name="x_324623_school_ma_student" sys_domain="global" view="Default view">564b5e9a9701211046b6bbc3f153af72</sys_ui_section>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2023-02-18 16:13:58</sys_updated_on>
+            <sys_updated_on>2023-02-18 16:15:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Student Details</caption>
             <header>false</header>
             <name>x_324623_school_ma_student</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>pramanik.abhisek@tcs.com</sys_created_by>
-            <sys_created_on>2022-12-25 07:13:28</sys_created_on>
+            <sys_created_on>2023-02-18 16:12:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5f5059649788211046b6bbc3f153afc8</sys_id>
+            <sys_id>564b5e9a9701211046b6bbc3f153af72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_324623_school_ma_student</sys_name>
             <sys_overrides/>
             <sys_package display_value="School Management" source="x_324623_school_ma">4a7d89a09788211046b6bbc3f153af61</sys_package>
             <sys_policy/>
             <sys_scope display_value="School Management">4a7d89a09788211046b6bbc3f153af61</sys_scope>
-            <sys_update_name>sys_ui_section_5f5059649788211046b6bbc3f153afc8</sys_update_name>
+            <sys_update_name>sys_ui_section_564b5e9a9701211046b6bbc3f153af72</sys_update_name>
             <sys_updated_by>pramanik.abhisek@tcs.com</sys_updated_by>
-            <sys_updated_on>2022-12-25 07:13:28</sys_updated_on>
+            <sys_updated_on>2023-02-18 16:12:56</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
